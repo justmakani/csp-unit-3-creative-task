@@ -80,6 +80,7 @@ def updateWinRate():
         if rate > 60: snarkyLabel.value = "WOAH UR BETTER THAN AN AI!!!!"
         elif rate > 50: snarkyLabel.value = "NOT BAD, HUMAN."
         elif rate < 40: snarkyLabel.value = "MY GRANDMA PLAYS BETTER."
+        elif rate == 30: snarkyLabel.value = "YOU fricking SUCK"
         else: snarkyLabel.value = "PERFECTLY AVERAGE. HOW BORING."
 
 def resetButtonBorders():
